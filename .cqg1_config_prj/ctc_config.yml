@@ -1,0 +1,22 @@
+# for every variable the "overridable" flag is default TRUE
+version: 1.0
+phases:
+  project_start:
+    statement coverage: 
+      value: 50
+    branch coverage: 
+      value: raising 
+  before_sop:
+    overridable: false
+    statement coverage: 
+      value: 70
+    branch coverage: 
+      value: raising
+  after_sop:
+    overridable: false
+    statement coverage: 
+      value: 90
+    branch coverage: 
+      value: 85 
+    mcdc coverage: 
+      value: raising # Only for ASIL-C and -D

@@ -1,0 +1,5 @@
+# for every variable the "overridable" flag is default true
+version: 1.0
+current_project_phase: 
+  overridable: false
+  value: project_start

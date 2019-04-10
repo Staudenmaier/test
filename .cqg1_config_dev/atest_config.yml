@@ -1,0 +1,8 @@
+# for every variable the "overridable" flag is default TRUE
+version: 1.0
+phases:
+  project_start:
+    max. no of failed tests: 
+      value: falling # It shall be possible to use keywords "falling" or "raising" to check the progress per push, pull request(?) and release (?)
+    max. no of skipped tests: 
+      value: falling # if limit is not need then it shall not be defined in config

@@ -1,0 +1,7 @@
+# for every variable the "overridable" flag is default TRUE
+version: 1.0
+phases:
+  project_start:
+    max. no of skipped tests: 
+      overridable: false
+      value: 100 # if limit is not need then it shall not be defined in config
