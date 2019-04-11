@@ -1,0 +1,17 @@
+# for every variable the "overridable" flag is default true
+version : 1.0
+
+override_frequency_per_year:
+  overridable: false
+  value: 2
+
+config_layers:
+  overridable: false
+  value:
+    - cip
+    - project_layer
+    - dev_layer
+
+current_project_phase: 
+  overridable: true
+  value: project_start

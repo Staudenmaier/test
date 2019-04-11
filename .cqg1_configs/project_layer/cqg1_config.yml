@@ -1,5 +1,6 @@
 # for every variable the "overridable" flag is default true
-version : 1.0
-override_frequency_per_year:
+version: 1.0
+
+current_project_phase: 
   overridable: false
-  value: 2
+  value: project_start
